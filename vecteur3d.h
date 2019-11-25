@@ -8,6 +8,6 @@ public:
 		y = c2; 
 		z = c3; 
 	}
-	bool coincidance(vecteur3d);
+	bool coincidance(vecteur3d*);
 };
 
