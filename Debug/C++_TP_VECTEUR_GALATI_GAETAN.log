@@ -1,2 +1,4 @@
-﻿  vecteur3d.cpp
-  C++_TP_VECTEUR_GALATI_GAETAN.vcxproj -> C:\Users\Utilisateur\source\repos\C++_TP_VECTEUR_GALATI_GAETAN\Debug\C++_TP_VECTEUR_GALATI_GAETAN.exe
+﻿  Source.cpp
+c:\users\utilisateur\source\repos\c++_tp_vecteur_galati_gaetan\c++_tp_vecteur_galati_gaetan\source.cpp(14): error C3867: 'vecteur3d::somme' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+c:\users\utilisateur\source\repos\c++_tp_vecteur_galati_gaetan\c++_tp_vecteur_galati_gaetan\source.cpp(14): error C2440: '=' : impossible de convertir de 'vecteur3d (__thiscall vecteur3d::* )(vecteur3d &)' en 'int'
+  c:\users\utilisateur\source\repos\c++_tp_vecteur_galati_gaetan\c++_tp_vecteur_galati_gaetan\source.cpp(14): note: Aucun contexte dans lequel cette conversion est possible

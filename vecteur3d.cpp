@@ -4,35 +4,26 @@
 using namespace std;
 
 
-/*
-vecteur3d::vecteur3d(float X, float Y, float Z)
+vecteur3d vecteur3d::somme(vecteur3d & Vect1)
 {
-	x = X; 
-	y = Y; 
-	z = Z;
+	vecteur3d total;
+	total.x = Vect1.x;
+	total.y = Vect1.y;
+	total.z = Vect1.z;
+	//Ajout a la somme des coordonés X,Y et Z
+	return total;
 }
-*/
-/*
-bool vecteur3d::coincidance(vecteur3d & vect)
+
+int vecteur3d::prodscal(vecteur3d & Vect1)
 {
-	if ((vect.x == x) && (vect.y == y) && (vect.z == z)) {
-		return true;//Coincidance ! 
-	}
-	else {
-		return false;//Pas de coincidance ! 
-	}
-}*/
-
-
-
-vecteur3d * vecteur3d::normax(vecteur3d *vect, vecteur3d *vect2)
-{
-	float nVect1 = vect->x * vect->x + vect->y * vect->y + vect->z * vect->z;
-	float nVect2 = vect2->x * vect2->x + vect2->y * vect2->y + vect2->z * vect2->z;
-	if (nVect1 > nVect2) {
-		std::cout << "Le premier est plus grand\n";
-	}
-	else {
-		std::cout << "Le second est plus grand\n";
-	}
+	int total;
+	total = (Vect1.x * x) + (Vect1.y * y) + (Vect1.z * z);//Calcule de produit scalaire
+	return  total;
 }
+
+void vecteur3d::display()
+{
+	cout << "< " << x << ", " << y << ", " << z <<" ";//Affichage
+}
+
+
