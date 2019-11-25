@@ -10,7 +10,7 @@ public:
 	}
 	//bool coincidance(vecteur3d &);
 
-	vecteur3d &normax(vecteur3d vect, vecteur3d vect2);
+	vecteur3d *normax(vecteur3d vect, vecteur3d vect2);
 
 };
 
