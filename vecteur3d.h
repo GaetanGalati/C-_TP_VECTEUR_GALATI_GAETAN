@@ -8,6 +8,9 @@ public:
 		y = c2; 
 		z = c3; 
 	}
-	bool coincidance(vecteur3d &);
+	//bool coincidance(vecteur3d &);
+
+	void normax(vecteur3d vect, vecteur3d vect2);
+
 };
 
