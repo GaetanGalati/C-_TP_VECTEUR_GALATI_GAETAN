@@ -9,7 +9,13 @@ vecteur3d::vecteur3d(float X, float Y, float Z)
 	z = Z;
 }
 
-
-vecteur3d::~vecteur3d()
+bool vecteur3d::coincidance(vecteur3d vect)
 {
+	if ((vect.x == x) && (vect.y == y) && (vect.z == z)) {
+		return true;//Coincidance ! 
+	}
+	else {
+		return false;//Pas de coincidance ! 
+	}
+	
 }

@@ -1,17 +1,13 @@
 #pragma once
-class vecteur3d
-{
-	float x;
-	float y; 
-	float z;
-public:
-	//vecteur3d();//Constructeur 
-	vecteur3d(float X = 0.0, float Y = 0.0, float Z = 0.0)//Asignation
-	{
-		x = X;
-		y = Y;
-		z = Z;
+class vecteur3d { 
+	float x, y, z;   
+public:    
+	vecteur3d(float c1 = 0.0, float c2 = 0.0, float c3 = 0.0) 
+	{ 
+		x = c1; 
+		y = c2; 
+		z = c3; 
 	}
-	~vecteur3d();
+	bool coincidance(vecteur3d);
 };
 
